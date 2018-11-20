@@ -7,7 +7,7 @@ KEY = '265e8f716d9d4686953d9de4f2adf9cf'
 
 def get_response(msg):
     # 这里我们就像在“3. 实现最简单的与图灵机器人的交互”中做的一样
-    # 构造了要发送给服务器的数据
+    # 构造了要发送给服务器的数据，这是个机器人试验
     apiUrl = 'http://www.tuling123.com/openapi/api'
     data = {
         'key'    : KEY,
